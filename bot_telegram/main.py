@@ -1,5 +1,5 @@
 import os
-import telebot
+import teleBot
 
 API_KEY = os.getenv('5141763004:AAHv0lLKh0RhkysUuK_jQ5DznInK5YLENDI')
 bot = telebot.TeleBot(API_KEY)
