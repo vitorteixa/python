@@ -1,6 +1,6 @@
-varTesteNum = "1"
-varTesteChar = "hello world"
-print(varTesteChar+" "+varTesteNum)
+varTesteNum = '1'
+varTesteChar = ' hello world'
+print(varTesteChar,varTesteNum)
 
 num1 = 2
 num2 = 3
