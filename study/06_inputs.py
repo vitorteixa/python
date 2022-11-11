@@ -8,11 +8,11 @@ dia = input('Dia do nascimento? ')
 mes = input('Mês do nascimento? ')
 ano = input('Ano do nascimento? ')
 
-print ('Olá',nome,'a sua data de nascimento é',dia,'/',mes,'/',ano)
+print ('Olá', nome, 'a sua data de nascimento é', dia, '/', mes, '/', ano)
 
 #Desafio 3
 
 num1 = 5
 num2 = 6
 
-print ('A soma é:',num1+num2)
+print ('A soma é:', num1+num2)
