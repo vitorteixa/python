@@ -34,3 +34,5 @@ if entrada_teclado.isupper():
     print('Somente maiúsculas')
 else:
     print('possui minusculas')
+
+#teste
