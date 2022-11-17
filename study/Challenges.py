@@ -17,10 +17,10 @@ print('Digite 2 números que serão somados.')
 num1 = int(input())
 num2 = float((input()))
 soma = num1 + num2
-print('A soma é:{}'.format(soma))
+print('A soma é: {}'.format(soma))
 
 # Desafio 4 com condicionais
-entrada_teclado = input('Digite algo aqui:')
+entrada_teclado = input('Digite algo aqui: ')
 
 if entrada_teclado.isnumeric() is True:
     print('é numérico')
@@ -35,4 +35,7 @@ if entrada_teclado.isupper():
 else:
     print('possui minusculas')
 
-#teste
+# Desafio 5 mostrar sucessor e antecessor
+
+numero_qualquer = int(input('digite um numero qualquer: '))
+print(' O Antecessor do numero é: {} \n O Sucessor do numero é: {} '.format(numero_qualquer-1,numero_qualquer+1))
