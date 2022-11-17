@@ -11,15 +11,9 @@ ano = input('Ano do nascimento? ')
 print('Olá', nome, 'a sua data de nascimento é', dia, '/', mes, '/', ano)
 
 # Desafio 3
-print('Digite 2 números que serão somados.')
-num1 = int(input())
-num2 = int((input()))
-soma = num1 + num2
-print('A soma é:{}'.format(soma))
 
-# validações alfa numerico/ maiuscula
+num1 = 5
+num2 = 6
 
-print(nome.isalpha())
-print(nome.isalnum())
-print(nome.isupper())
-
+print('A soma é:', num1 + num2)
+print(type(num1))
